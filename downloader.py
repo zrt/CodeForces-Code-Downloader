@@ -13,7 +13,7 @@ USER_INFO_URL = 'http://codeforces.com/api/user.status?handle={handle}&from=1&co
 EXT = {'C++': 'cpp', 'C': 'c', 'Java': 'java', 'Python': 'py', 'Delphi': 'dpr', 'FPC': 'pas', 'C#': 'cs'}
 EXT_keys = EXT.keys()
 
-replacer = {'&quot;': '\"', '&gt;': '>', '&lt;': '<', '&amp;': '&', "&apos;": "'"}
+replacer = {'&quot;': '\"', '&gt;': '>', '&lt;': '<', '&amp;': '&', "&apos;": "'", "&#39;": "'"}
 keys = replacer.keys()
 
 def get_ext(comp_lang):
