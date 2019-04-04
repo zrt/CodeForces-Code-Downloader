@@ -3,7 +3,7 @@ import json
 import time, os
 
 MAX_SUBS = 1000000
-MAX_CF_CONTEST_ID = 600
+MAX_CF_CONTEST_ID = 1500 
 MAGIC_START_POINT = 17000
 
 SOURCE_CODE_BEGIN = 'program-source" style="padding: 0.5em;">'
